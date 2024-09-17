@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/cradlewise/raas/automate_screenshot.py", line 90, in <module>
+    scheduler.start()
+  File "/home/cradlewise/anaconda3/envs/raas/lib/python3.11/site-packages/apscheduler/schedulers/blocking.py", line 21, in start
+    self._main_loop()
+  File "/home/cradlewise/anaconda3/envs/raas/lib/python3.11/site-packages/apscheduler/schedulers/blocking.py", line 30, in _main_loop
+    self._event.wait(wait_seconds)
+  File "/home/cradlewise/anaconda3/envs/raas/lib/python3.11/threading.py", line 629, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cradlewise/anaconda3/envs/raas/lib/python3.11/threading.py", line 331, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
